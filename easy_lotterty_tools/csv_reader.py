@@ -8,7 +8,7 @@ def get_result_map(filename):
         result = {}
         for row in reader:
             if idx > 0:
-                result[row[0]] = row[2]
+                result[row[0]] = float(row[2])
             idx += 1
 
         return result
