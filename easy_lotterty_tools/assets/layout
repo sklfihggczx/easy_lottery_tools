@@ -1,0 +1,43 @@
+# MainWindow: 1000 x 600
+
+Label main-label
+    geometry=350 100 300 100
+    style=main_label
+    align=center
+End
+
+PushButton roll-button
+    geometry=400 300 200 75
+    text=开始！
+    style=roll_button
+    enabled=false
+End
+
+TextEdit be-chosen
+    geometry=730 50 240 500
+    style=side_label
+    text=<h2 style='color:#D02090'>抽中啦 ^_^</h2>
+    align=top|left
+    transparent=true
+End
+
+TextEdit to-choose
+    geometry=30 50 240 500
+    style=side_label
+    text=<h2 style='color:#D02090'>候选列表</h2>
+    align=top|left
+    transparent=true
+End
+
+LineEdit object
+    geometry=300 450 300 35
+    holder=<输入要抽取的奖品名>
+    style=line_edit
+End
+
+SpinBox count
+    geometry=610 450 90 35
+    min=1
+    max=255
+    style=spin
+End

@@ -1,0 +1,53 @@
+QTextEdit {
+    border-style: dashed;
+    border-width: 2px;
+    border-color: red;
+    border-radius: 15px;
+
+    color: #008080;
+    font-family: "Microsoft YaHei";
+    font-size: 15pt;
+    font-weight: 700;
+}
+
+QMenu {
+    background-color: #F0F0F0;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: red;
+}
+
+QMenu::item {
+    color: #008080;
+    font-family: "Microsoft YaHei";
+    font-size: 12pt;
+    font-weight: 700;
+    padding-right: 20px;
+}
+
+QMenu::item:selected {
+    color: #F0F0F0;
+    background-color: #008080;
+}
+
+
+QMenu::item:!enabled {
+    background-color: #CDCDCD;
+	color: #B4B4B4;
+}
+
+QScrollBar:vertical
+{
+    background-color: #A1A1A1;
+    width:10px;
+    border-radius: 15px;
+    border: 1px solid transparent
+}
+
+QScrollBar::sub-page:vertical {
+    background: #CFCFCF;
+}
+
+QScrollBar::add-page:vertical {
+    background: #CFCFCF;
+}

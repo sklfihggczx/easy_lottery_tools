@@ -1,0 +1,30 @@
+QSpinBox {
+    border-style: dashed;
+    border-width: 2px;
+    border-color: red;
+    border-radius: 7px;
+
+    color: #008080;
+    font-family: "Microsoft YaHei";
+    font-size: 15pt;
+    font-weight: 700;
+
+    background-color: #F0F0F0;
+}
+
+QSpinBox::hover {
+    border: 2px solid red;
+}
+
+QSpinBox:disabled {
+    border: 2px solid gray;
+    background-color: #CDCDCD;
+}
+
+QSpinBox::up-button {
+    height: 16px;
+}
+
+QSpinBox::down-button {
+    height: 16px;
+}
